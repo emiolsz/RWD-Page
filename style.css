@@ -1,0 +1,39 @@
+.media {
+  width: 94%;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  color: black;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 100%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  background-color: #24ad98;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+ 
+footer {
+  text-align: left;
+}
+@media screen and (min-width: 768px) {
+.btn {
+width: auto;
+}
+.btn:hover {
+background-color: white;
+color: #24ad98;
+}
+.media {
+width: 640px;
+}
+}
+
